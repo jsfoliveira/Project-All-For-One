@@ -28,8 +28,9 @@ O banco de dados usado foi o northwind, que pode ser copiado através desse arqu
 https://github.com/jsfoliveira/Project-All-For-One/blob/juliana-oliveira-project-all-for-one/northwind.sql
 ### Informações Importantes
 Na raiz do projeto, foram criados os arquivos desafio1.sql até desafio27.sql. Nele contém todas as querys que serão usadas nos testes. Para fazer todos os arquivos de uma vez só, usei o seguinte comando:
-* touch desafio{1..27}.sql<br>
-**Não é necessário colocar** `USE northwind` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos.<br>
+* touch desafio{1..27}.sql
+<br>
+**Não é necessário colocar no início dos arquivos** `USE northwind` ou `SET SQL_SAFE_UPDATES = 0;` <br>
 Após a execução dos teste locais, o banco de dados `northwind` é deletado.<br>
 Antes de começar, seu docker-compose precisa estar na versão 1.29 ou superior. 
 
